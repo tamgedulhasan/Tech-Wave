@@ -1,0 +1,81 @@
+
+.inter-sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.head-container{
+    background-color: #1A0B2E;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+}
+.nav-text{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.head .wave{
+    color: rgba(145, 0, 248, 1);
+}
+.head .tech{
+    color: rgba(255, 255, 255, 1);
+}
+.btn{
+    color: #ffffff;
+    padding: 12px 16px;
+    background-color: rgba(145, 0, 248, 1);
+    border-radius: 50px;
+    border: none;
+    font-size: rem;
+    font-weight: 600;
+}
+
+/* banner */
+
+.banner .banner-img{
+    position: relative;
+}
+.img-1{
+    width: 100%;
+}
+.banner-img .img-2{
+    width: 50%
+    position: absolute;
+    bottom: 200px;
+}
+
+
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width:576px) {
+
+.navbar{
+    flex-direction: column;
+    padding: 0px;
+}
+    
+
+
+
+
+}
