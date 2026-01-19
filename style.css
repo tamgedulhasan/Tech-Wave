@@ -244,6 +244,7 @@ main{
     padding: 40px;
     border-radius: 40px;
     text-align: left; 
+    margin-bottom: 40px;
 }
 .box-4 h3{
     margin-top: 16px;
@@ -255,12 +256,15 @@ main{
 }
 /* box5 */
 .box-5{
+    
     background-color: #351165;
     grid-row: span 1;
     border: 40px;
     padding: 40px;
     border-radius: 40px;
     text-align: left; 
+    margin-bottom: 40px;
+    
 }
 .box-5 h3{
     margin-top: 16px;
@@ -269,7 +273,110 @@ main{
 }
 .box-5 p{
     margin-top: 16px;
+    
 }
+
+/* episodes section */
+
+.features{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features h2{
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.episode-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 120px;
+}
+
+
+.episode-1{
+    width: 380px;
+    height: 440px;
+    background-color:#351165;  
+      
+}
+.episode-1 , .pic-1{
+    text-align: center;
+  border-radius: 24px 24px 0px 0px;
+}
+.mini-1 {
+    
+    text-align: left;
+    margin-left: 24px ;
+}
+
+.mini-1 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.mini-1 p{
+    margin-bottom: 12px;
+    color: #ffffff8e;
+}
+.mini-1 .para-1{
+    color: #00ff88;
+}
+/* episode2 */
+.episode-2{
+    width: 380px;
+    height: 440px;
+    background-color:#351165;
+   border-radius: 24px 24px 0px 0px;
+}
+.mini-2 {
+    text-align: left;
+    margin-left: 24px ;
+}
+.mini-2 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.mini-2 p{
+    margin-bottom: 12px;
+    color: #ffffff8e;
+}
+.mini-2 .para-1{
+    color: #00ff88;
+}
+
+/* episode3 */
+
+.episode-3{
+    width: 380px;
+    height: 440px;
+    background-color:#351165;
+    border-radius: 24px 24px 0px 0px;
+}
+.mini-3 {
+    text-align: left;
+    margin-left: 24px ;
+}
+.mini-3 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.mini-3 p{
+    margin-bottom: 12px;
+    color: #ffffff8e;
+}
+.mini-3 .para-1{
+    color: #00ff88;
+}
+
+
+
 
 
 
@@ -418,8 +525,26 @@ main{
     margin-right: 30px;
 }
 .box-5{
-    margin-left: 30px; 
-      
+    margin-left: 30px;     
+    margin-bottom: 40px;
 }
+/* episodes */
+
+.episode-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.episode-1{
+    width: 100%;
+}
+.episode-2{
+    width: 100%;
+}
+.episode-3{
+    width: 100%;
+}
+
+
+
+
 
 }
