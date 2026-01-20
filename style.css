@@ -31,7 +31,7 @@
     font-weight: 500;
     color: #ffffff;
 }
-.head img{
+.hamburger{
     display: none;
 }
 .head .wave{
@@ -460,7 +460,8 @@ main{
     
 }
 
-.footer-text{
+.footer-text {
+   width: 100%;
     font-size: 3rem;
     margin-top: 100px;
     margin-bottom: 32px;
@@ -506,27 +507,32 @@ main{
 /* Responsive styles */
 
 @media screen and (max-width:576px) {
+
 /* .head{
     position: relative;
-        right: 600%; 
+        right: 400%; 
         top: 10px;       
-} */
+}
 
 
-   /* .head img{
+   .head img{
  display: inline;
  position: relative;
  left: 400px;
  bottom: 20px;
  
 } */
- .head h2{
-    
- }
+.hamburger{
+    display: block !important;
+}
+ 
 
 
 .navbar{
-    flex-direction: column;
+    /* flex-direction: column; */
+    padding: 20px;
+    align-items: start;
+    justify-content: space-between;
     
 }
 .nav-text{
@@ -709,8 +715,9 @@ main{
     
 }
 
-.footer-text{
+.footer-text {
     margin-bottom: 40px;
+    
 }
 
 
