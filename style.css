@@ -363,6 +363,7 @@ main{
     background-color:#351165;
     border-radius: 24px 24px 0px 0px;
      border-radius: 24px;
+     
 }
 .mini-3 {
     text-align: left;
@@ -395,6 +396,7 @@ main{
     margin-bottom: 40px;
     font-size: 3rem;
     font-weight: 700;
+    
 }
 .host img{
     margin-left: 40px;
@@ -462,8 +464,11 @@ main{
     font-size: 3rem;
     margin-top: 100px;
     margin-bottom: 32px;
-    position: relative;
-    left: 18%;
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    left: 18%; */
 }
 .footer-text .tech{
     
@@ -642,6 +647,7 @@ main{
     margin-left: 30px;   
     margin-right: 30px;
     line-height: 25px;
+    margin-bottom: 10px;
 }
 .box-5{
     margin-left: 30px;     
@@ -656,6 +662,7 @@ main{
    border-radius: 20px;
    margin-left: 30px;
    margin-right: 30px;
+   padding-bottom: 50px;
  
   
 }
@@ -702,8 +709,15 @@ main{
     
 }
 
+.footer-text{
+    margin-bottom: 40px;
+}
 
 
+
+.banner{
+    height: 350px;
+}
 
 
 }
